@@ -4,7 +4,7 @@ from pymongo import MongoClient
 import spamdetect
 import asyncio
 
-cluster = MongoClient("mongodb+srv://Jelow:Mesho321@cluster0.q8izt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("")
 
 levelling = cluster["discord"]["levelling"]
 

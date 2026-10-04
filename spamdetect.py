@@ -6,7 +6,7 @@ from pymongo import MongoClient
 message_limit = 3
 warnings_until_ban = 2
 
-cluster = MongoClient("mongodb+srv://Jelow:Mesho321@cluster0.q8izt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("")
 
 levelling = cluster["discord"]["levelling"]
 

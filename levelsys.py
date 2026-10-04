@@ -10,7 +10,7 @@ level = ["Base", "Super Saiyan", "Super Saiyan 2", "Super Saiyan 3", "Super Saiy
          "Super Saiyan Rose", "Legendary Super Saiyan", "Ultra Instinct", "Mastered Ultra Instinct"]
 levelnum = [2, 5, 8, 12, 15, 20, 25, 30, 40, 50]
 
-cluster = MongoClient("mongodb+srv://Jelow:Mesho321@cluster0.q8izt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("")
 
 levelling = cluster["discord"]["levelling"]
 

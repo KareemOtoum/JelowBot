@@ -42,4 +42,4 @@ async def on_member_join(member):
         await member.add_roles(discord.utils.get(member.guild.roles, name="OG Member"))
 
 
-client.run("ODY4ODE0NjkzNjMwODkwMDI0.YP1IvA.IaXmBpzVsmMpJZXwNewqbNztF8Y")
+client.run("")
